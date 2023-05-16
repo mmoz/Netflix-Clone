@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+.faq{
+    width: 100%;
+}
+body{
+    background-color: black;
+    overflow-x: hidden !important;
+
+}
+
+.show-content{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(45, 45, 45, 1);
+    margin-bottom: -80px ;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 83px;
+    align-items: center;
+    
+}
+.show-content p{
+    color: white;
+    text-align: center;
+    margin-bottom: 1px;
+}
+.info-content{
+    
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid rgba(45, 45, 45, 1);;
+    background-color: rgba(45, 45, 45, 1);
+    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 25px;
+    font-size: 1.3rem;
+    margin-top: 60px;
+    margin-bottom: -30px;
+
+
+}
+.info-content.show {
+  max-height: 600px;
+}
+.show-content svg{
+    background: transparent;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+button.btn{
+    background: transparent;
+    border: 0;
+}
+@media only screen and (max-width: 1600px) {
+      .show-content{
+        margin-bottom: -100px;
+    }
+    .info-content{
+        margin-top: 100px;
+    }
+    .container{
+        margin-bottom: 40px;
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .show-content{
+        margin-bottom: -25px;
+    }
+       .info-content{
+        margin-top: 20px;
+    }
+    .container{
+        margin-bottom: 40px;
+    }
+    
+
+}
